@@ -1,3 +1,12 @@
+ALL CREDITS FOR THIS PLUGIN GO TO ICEMAN73 WHO IS THE ORIGINAL DEV OF IT.
+
+I've only forked it because I needed the features that are available in the latest RTL_433 build of merbanan.
+That's the only thing that changed, it now pulls in the merbanan git when the docker image is build thus giving us the latest build.
+The latest RTL_433 build also includes a builtin MQTT client, this also eliminates the need for mosquito in the image
+ as I was having issues with publishing the data to MQTT.
+This is resolved by the new RTL_433 build.
+
+
 # RTL433 to MQTT Bridge hass.io addon
 A hass.io addon for a software defined radio tuned to listen for 433MHz RF transmissions and republish the data via MQTT
 
